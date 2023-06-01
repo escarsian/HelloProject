@@ -4,15 +4,26 @@ import java.util.Scanner;
 
 public class ObjectEx1 {
 	public static void main(String[] args) {
-		
+
 		Scanner scn = new Scanner(System.in);
-		Member[] members = new Member[2];
+		Member[] members = new Member[3];
 
 		// 등록.
 		for (int i = 0; i < members.length; i++) {
 			Member m1 = new Member();
 			System.out.print("아이디를 입력> ");
-			m1.memberId = scn.nextLine();
+			String id = scn.nextLine();
+			// i==0이면 처음 등록.
+			// i!=0이면 3번째 등록, 1,2번째랑 비교.
+			for (i = 0; i < members.length; i++) {
+				if (i == 0) {
+					continue;
+				}else {
+			
+				}
+			}
+			m1.memberId = id;
+
 			System.out.print("이름을 입력> ");
 			m1.memberName = scn.nextLine();
 			System.out.print("point를 입력> ");
