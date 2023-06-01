@@ -28,19 +28,20 @@ public class ControlEx4 {
 	}
 
 	public static void method2() {
-		int num1 = (int) (Math.random() * 6) + 1;
-		int num2 = (int) (Math.random() * 6) + 1;
-		int num3 = num1 + num2;
-		switch (num3) {
-		case 5:
-			break;
-		default:
+		int num1=0;
+		int num2=0;
+		int num3=0;
+		while (true) {
 			num1 = (int) (Math.random() * 6) + 1;
 			num2 = (int) (Math.random() * 6) + 1;
+			num3 = num1 + num2;
+			if (num3 == 5) {
+				break;
+			}
 		}
 		System.out.println(num3);
 	}
-
+	
 	public static void method3() {
 		for (int i = 1; i <= 4; i++) {
 			for (int j = 1; j <= 4; j++) {

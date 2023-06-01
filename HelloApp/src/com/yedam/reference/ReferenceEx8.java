@@ -18,23 +18,32 @@ public class ReferenceEx8 {
 			System.out.print("선택> ");
 
 			int selectNo = Integer.parseInt(scn.nextLine());
-
 			if (selectNo == 1) { // 학생수
 				System.out.print("학생 수> ");
 				student = Integer.parseInt(scn.nextLine());
-				scores = new int[student];
-
 			} else if (selectNo == 2) {// 배열의 크기만큼 학생의 점수.
+				if(student ==0) {
+					System.out.println("배열의 크기를 입력하세요.");
+					continue;
+				}
+				scores = new int[student];
 				for (int i = 0; i < scores.length; i++) {
 					System.out.printf("scores[%d]> \n", i);
 					scores[i] = Integer.parseInt(scn.nextLine());
 				}
-
 			} else if (selectNo == 3) {// 배열의 점수 출력.
+				if(scores ==null) {
+					System.out.println("점수를 입력하세요.");
+					continue;
+				}
 				for (int i = 0; i < scores.length; i++) {
 					System.out.printf("scores[%d]> %d \n", i, scores[i]);
 				}
 			} else if (selectNo == 4) {// 분석:최고, 평균.
+				if(scores ==null) {
+					System.out.println("점수를 입력하세요.");
+					continue;
+				}
 				int maxVal = 0;
 				int avgVal = 0;
 				int sum = 0;
