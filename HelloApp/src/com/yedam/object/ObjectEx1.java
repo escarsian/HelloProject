@@ -29,7 +29,7 @@ public class ObjectEx1 {
 			System.out.print("point를 입력> ");
 			m1.point = Integer.parseInt(scn.nextLine());
 
-			members[i] = m1;
+//			members[i] = m1;
 
 		}
 
