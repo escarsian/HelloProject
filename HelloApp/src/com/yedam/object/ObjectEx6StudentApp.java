@@ -131,10 +131,10 @@ public class ObjectEx6StudentApp {
 				}
 			}
 		}
-		if (!isExist) {
-			System.out.printf("%s 학생 번호가 존재하지 않습니다.", student);
-			return;
-		}
+//		if (!isExist) {
+//			System.out.printf("%s 학생 번호가 존재하지 않습니다.", );
+//			return;
+//		}
 	}
 
 	public static void removeStudent() {
