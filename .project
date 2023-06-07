@@ -14,4 +14,36 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/ArrayExe.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/ArrayExe.java</locationURI>
+		</link>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/EmpArray.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/EmpArray.java</locationURI>
+		</link>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/EmpArrayList.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/EmpArrayList.java</locationURI>
+		</link>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/EmpList.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/EmpList.java</locationURI>
+		</link>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/EmpListApp.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/EmpListApp.java</locationURI>
+		</link>
+		<link>
+			<name>HelloApp/src/com/yedam/emp/Employee.java</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/HelloApp/src/com/yedam/0_Employee.java_230607/Employee.java</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
